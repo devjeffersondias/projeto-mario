@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .logo-mario{
     width: 200px;
 }
@@ -17,14 +23,22 @@ button{
     height: 500px;
 }
 
-.div-1{
-    background-color: red;
+.caixa-info-texto{
+    width: 40%;
+    background: pink;
 }
 
-.div-2{
+.caixa-imagem{
     background-color: green;
 }
 
 body{
+    height: 100vh;
+}
+
+.caixa-principal{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
 }
