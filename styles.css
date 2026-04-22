@@ -25,11 +25,6 @@ button{
 
 .caixa-info-texto{
     width: 40%;
-    background: pink;
-}
-
-.caixa-imagem{
-    background-color: green;
 }
 
 body{
@@ -41,4 +36,16 @@ body{
     justify-content: space-around;
     align-items: center;
     padding: 100px;
+    height: 100vh;
+}
+
+.caixa-video{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+video{
+    width: 100vw;
 }
