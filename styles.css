@@ -115,13 +115,8 @@ form {
 
     position: fixed;
     top: 40%;
-    left: -340px;
+    left: -280px;
     
-    /* 
-    posição final
-    left: 50%;
-    transform: translateX(-50%); 
-    */
 
     display: flex;
     flex-direction: column;
@@ -130,8 +125,9 @@ form {
     padding: 20px;
     border-radius: 10px;
     width: 300px;
+    transition: left 0.8s ease-in-out;
 
-    
+    z-index: 1;
 }
 
 form input,
@@ -159,6 +155,7 @@ form textarea {
     width: 100%;
     height: 100%;
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
-    display: none;
+    visibility: hidden;
+    transition: 0.8s ease-in-out;
     
 }
